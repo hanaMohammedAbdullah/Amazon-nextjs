@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply cursor-pointer px-2 py-[2px] border border-transparent hover:border hover:border-white;
+  }
+
+  .button {
+    @apply p-2 text-xs md:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-500;
+  }
+  .button_proceed {
+    @apply p-2 text-sm font-semibold md:text-base bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-500;
+  }
+  .btn_arrow {
+    @apply mx-3 p-2 text-xs md:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-500;
+  }
+  .btn {
+    @apply ml-8 p-2 text-xs text-[#238888] hover:underline md:text-sm;
+  }
+  .h_u {
+    @apply hover:underline text-gray-300;
+  }
+  .h_b {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+}
