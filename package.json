@@ -10,7 +10,6 @@
     "@heroicons/react": "^1.0.5",
     "@reduxjs/toolkit": "1.5.0",
     "@tailwindcss/line-clamp": "^0.2.0",
-    "axios": "0.25.0",
     "explore": "^0.2.0",
     "export": "^0.1.337",
     "firebase": "^8.6.1",
